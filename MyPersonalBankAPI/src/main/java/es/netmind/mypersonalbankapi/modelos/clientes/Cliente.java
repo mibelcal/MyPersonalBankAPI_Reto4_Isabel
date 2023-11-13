@@ -2,10 +2,19 @@ package es.netmind.mypersonalbankapi.modelos.clientes;
 
 import es.netmind.mypersonalbankapi.modelos.cuentas.Cuenta;
 import es.netmind.mypersonalbankapi.modelos.prestamos.Prestamo;
+//import lombok.AllArgsConstructor;
+//import lombok.Getter;
+//import lombok.Setter;
+//import lombok.ToString;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+
+//@AllArgsConstructor
+//@Getter
+//@Setter
+//@ToString
 
 public abstract class Cliente {
     private Integer id;
